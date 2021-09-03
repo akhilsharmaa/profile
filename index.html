@@ -11,10 +11,16 @@
     <!-- Font awesom -->
     <script src="https://kit.fontawesome.com/1dac6b52de.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- Custom css -->
     <link rel="stylesheet" href="css/Intro/animation/typing.css" class="stylesheet">
     <link rel="stylesheet" href="css/Intro/Heading.css" class="stylesheet">
     <link rel="stylesheet" href="css/education/education.css" class="stylesheet">
+    <link rel="stylesheet" href="css/projects/subprojects.css" class="stylesheet">
 
     <title>Akhilesh Profile!</title>
   </head>
@@ -29,7 +35,7 @@
 
 
     <!-- EDUCATION SECTION -->
-    <section id="education-frame" class="containerjustify-content-center" > 
+    <section id="education-frame"> 
       <p id="education-title" class="h2 display-4">Education</p>
         <div style="margin: 0;" class="row justify-content-center">
 
@@ -46,17 +52,45 @@
 
 
     <!-- PROJECTS SECTION -->
-    <section id="projects-frame" class="container justify-content-center" > 
-      <p id="education-title" class="h2 display-4">Projects</p>
+    <section id="projects-frame" > 
+      <p id="project-title" class="h2 display-4">Projects</p>
         <div style="margin: 0;" class="row justify-content-center">
 
-          <!-- Diploma Sub-section -->
-          <!-- <div class="sub-education container col-lg-4">
-            <img id="university_image" src="images/graduation-hat.png">
-            <p class="degree">Diploma in Computer Science </p>
-            <p class="college-name">From, Sant Longowal Institute Of Engeering And Technology, Punjab</p>
-            <p class="college-date">2020 - 2023 Aug</p>
-          </div> -->
+          <!-- Sync with class Sub-section -->
+          <div class="sub-projects container col-lg-5">
+            <h2 class="project-title">Sync With Class</h2>
+                  <p class="project-description">Anyone could <span class="highlighted-project-description">create a Room and others can join</span>, List of joined users who created the Group/Room.</p>
+                  <p class="project-description">User can Create, Update, Delete the Time-table Events for all Users Send Notification to all other members, Available on Play Store.</p>
+
+            <div class="divider"></div>
+            <!-- Tech Used -->
+            <h5><span class="highlighted-project-description"></span> <span class="tech-used">Java</span><span class="tech-used">FireBase</span> </h5>  
+
+            <div style="margin-bottom: 40px;"></div>   
+            <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button">Source Code</button>
+            <p class="source-code-description">source code is available on github<p>
+
+          </div>
+
+          <!-- Sync with class Sub-section -->
+          <div class="sub-projects container col-lg-5">
+            <h2 class="project-title">Chatting App</h2>
+                  <p class="project-description">User can send-receive messages
+                  <span class="highlighted-project-description">, one-to-one chats, set-update profiles authenticate</span>, via Mobile no. and OTP.</p>
+                
+                  <p class="project-description">Users can see wether other User is 
+                    <span class="highlighted-project-description">Online/Offline.</span> 
+                  </p>  
+
+            <div class="divider"></div>
+              <!-- Tech Used -->
+              <h5><span class="highlighted-project-description"></span> <span class="tech-used">Java</span><span class="tech-used">FireBase</span> </h5>  
+
+              <div style="margin-bottom: 60px;"></div>   
+              <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button">Source Code</button>
+              <p class="source-code-description">source code is available on github<p>
+  
+          </div>
 
         </div>
     </section>
