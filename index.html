@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/Intro/Heading.css" class="stylesheet">
     <link rel="stylesheet" href="css/education/education.css" class="stylesheet">
     <link rel="stylesheet" href="css/projects/subprojects.css" class="stylesheet">
+    <link rel="stylesheet" href="css/ParentStyle.css" class="stylesheet">
+    <link rel="stylesheet" href="css/footer/footer.css" class="stylesheet">
 
     <title>Akhilesh Profile!</title>
   </head>
@@ -29,7 +31,7 @@
     <!-- INTRO SECTION -->
     <section id="intro-frame" class="container-fluid justify-content-center" > 
         <div >
-            <h1 class="intro h1 h1_akhilesh">Hi, I'm Akhilesh.</span></h1>
+        <h1 class="intro h1 h1_akhilesh">Hi, I'm Akhilesh.</span></h1>
         </div>
     </section>
 
@@ -41,7 +43,7 @@
 
           <!-- Diploma Sub-section -->
           <div class="sub-education container col-lg-4">
-            <img id="university_image" src="images/graduation-hat.png">
+            <img id="university_image" src="images/school.png">
             <p class="degree">Diploma in Computer Science </p>
             <p class="college-name">From, Sant Longowal Institute Of Engeering And Technology, Punjab</p>
             <p class="college-date">2020 - 2023 Aug</p>
@@ -54,6 +56,8 @@
     <!-- PROJECTS SECTION -->
     <section id="projects-frame" > 
       <p id="project-title" class="h2 display-4">Projects</p>
+
+      <div style="margin-bottom:40px ;"></div>
         <div style="margin: 0;" class="row justify-content-center">
 
           <!-- Sync with class Sub-section -->
@@ -66,8 +70,11 @@
             <!-- Tech Used -->
             <h5><span class="highlighted-project-description"></span> <span class="tech-used">Java</span><span class="tech-used">FireBase</span> </h5>  
 
-            <div style="margin-bottom: 40px;"></div>   
-            <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button">Source Code</button>
+            <div style="margin-bottom: 25px;"></div>   
+            <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button"
+            onclick="location.href='https://github.com/akhilsharmaa/SyncWithClass-AndroidApp';" >
+              Source Code</button>
+            
             <p class="source-code-description">source code is available on github<p>
 
           </div>
@@ -86,8 +93,10 @@
               <!-- Tech Used -->
               <h5><span class="highlighted-project-description"></span> <span class="tech-used">Java</span><span class="tech-used">FireBase</span> </h5>  
 
-              <div style="margin-bottom: 60px;"></div>   
-              <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button">Source Code</button>
+              <div style="margin-bottom: 60px;"></div>    
+              <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button"
+              onclick="location.href='https://github.com/akhilsharmaa/Whatsapp-ChatApp';" >
+              Source Code</button>
               <p class="source-code-description">source code is available on github<p>
   
           </div>
@@ -95,6 +104,11 @@
         </div>
     </section>
 
+
+    <!-- Footer Section -->
+    <section id="footer-frame">
+      <p class="contact-h1">Created by Akhilesh Kr. Sharma</p>
+    </section>
 
 
     <!-- Optional JavaScript -->

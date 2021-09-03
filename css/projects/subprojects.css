@@ -1,6 +1,6 @@
 #projects-frame{
     text-align: center;
-    background-color: rgb(68, 223, 197);
+    background-color: rgb(68, 200, 223);
     padding-top: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -48,8 +48,8 @@
 }
 
 .divider{
-    height: 2px;
-    background-color: rgb(223, 223, 223);
+    height: 1.5px;
+    background-color: rgb(241, 241, 241);
     margin-bottom: 20px;
 }
 
