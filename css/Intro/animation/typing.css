@@ -1,0 +1,49 @@
+.h1_akhilesh{
+    animation: type 2.5s steps(16);
+    overflow: hidden;
+    white-space: nowrap ;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 4px solid rgb(214, 214, 214);
+    width: 80%;
+    position: relative;
+    align-items: center;
+    font-size: 5rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .container-fluid{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .h1_akhilesh{   
+        animation: type 0s steps(2);
+        overflow: visible;
+        white-space: pre-wrap;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        border-right: 4px solid rgb(2, 2, 2);
+        width: 100%;
+        position: relative;
+        align-items: center;
+        font-size: 2.5rem;
+        
+    }
+    
+    
+
+
+  }
+
+@keyframes type {
+    0%{
+        width: 0ch ;
+    }
+    100%{
+        width: 17ch;
+    }
+}

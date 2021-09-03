@@ -1,0 +1,98 @@
+h2{
+    color: white;
+}
+
+
+#education-frame{
+    text-align: center;
+    color: white;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+#education-title{
+    font-size: 2rem;
+    color: rgb(54, 54, 54);
+    padding-top: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: normal;
+}
+
+.degree{
+    color: rgb(246, 246, 246);
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.sub-education{
+    background-image: linear-gradient( rgb(88, 88, 88) , rgb(31, 31, 31));
+    border-radius: 0.6rem;
+    margin-top: 2%;
+    box-shadow: 10ch;
+    padding-top: 2%;    
+    padding-bottom: 0.2rem;
+    box-shadow: 4px 3px 10px   rgb(194, 194, 194);
+}
+
+.college-name{
+    font-size: 1rem;
+    color: rgb(226, 226, 226);
+}
+
+.college-date{
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+}
+
+#university_image{
+    height: 3em;
+    color: white;
+    margin-bottom: 5%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    #university_image{
+        height: 3em;
+        color: white;
+        margin-bottom: 3%;
+        margin-top: 5%; 
+    }
+    
+
+    #education-frame{
+        text-align: center;
+        color: white;
+        padding-right: 0;
+        margin-right: 0;
+        background-color: white;
+        padding-bottom: 0;
+    }
+    
+    .degree{
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+
+    .college-name{
+        font-size: 0.8rem;
+    }
+
+    .sub-education{
+        border-radius: 0.6rem;
+        margin-top: 2%;
+        box-shadow: 10ch;
+        margin-left: 3%;
+        margin-right: 3%;
+        box-shadow: 5px 5px 20px   rgb(223, 223, 223);
+        margin-bottom: 10%;
+    }
+}
+
