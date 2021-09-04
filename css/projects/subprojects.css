@@ -39,7 +39,7 @@
 }
 
 .tech-used{
-    background-color: rgb(170, 245, 255);
+    background-color: rgb(238, 238, 238);
     border-radius: 0.2rem;
     padding: 0.2rem 0.5rem;
     margin-right: 0.4rem;
@@ -65,7 +65,14 @@
 
 @media only screen and (max-width: 600px) {
     #projects-frame{
+        padding-top: 40px;
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    #project-title{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
 }
