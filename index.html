@@ -17,7 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- Custom css -->
-    <link rel="stylesheet" href="css/Intro/animation/typing.css" class="stylesheet">
     <link rel="stylesheet" href="css/Intro/Heading.css" class="stylesheet">
     <link rel="stylesheet" href="css/education/education.css" class="stylesheet">
     <link rel="stylesheet" href="css/projects/subprojects.css" class="stylesheet">
@@ -29,23 +28,38 @@
   <body>
 
     <!-- INTRO SECTION -->
-    <section id="intro-frame" class="container-fluid justify-content-center" > 
-        <div >
-        <h1 class="intro h1 h1_akhilesh">Hi, I'm Akhilesh.</span></h1>
+    <section id="intro-frame" class="justify-content-center" > 
+
+        <div class="px-4 pt-5 text-center border-bottom">
+          <h1 class="display-4 fw-bold">Hi, I'm Akhilesh.</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">A passionate student of computer science</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">CONTACT</button>
+            </div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 45vh;">
+            <div class="container px-5">
+              <img src="images/code editor .gif" id="header_image" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="900" height="800" loading="lazy">
+            </div>
+          </div>
+          <img  id="header_image2" src="images/code editor .gif">
         </div>
     </section>
+    
+
 
 
     <!-- EDUCATION SECTION -->
     <section id="education-frame"> 
-      <p id="education-title" class="h2 display-4">Education</p>
-        <div style="margin: 0;" class="row justify-content-center">
+      <p id="education-title" class="h2 display-4">EDUCATION</p>
+        <div style="margin: 0;" class="row container-fluid justify-content-center">
 
           <!-- Diploma Sub-section -->
-          <div class="sub-education container col-lg-4">
+          <div class="sub-education col-lg-4">
             <img id="university_image" src="images/school.png">
             <p class="degree">Diploma in Computer Science </p>
-            <p class="college-name">From, Sant Longowal Institute Of Engeering And Technology, Punjab</p>
+            <p class="college-name">From, Sant Longowal Institute Of Engeering & Technology, Punjab</p>
             <p class="college-date">2020 - 2023 Aug</p>
           </div>
 
@@ -55,7 +69,7 @@
 
     <!-- PROJECTS SECTION -->
     <section id="projects-frame" > 
-      <p id="project-title" class="h2 display-4">Projects</p>
+      <p id="project-title" class="h2 display-4">PROJECTS</p>
 
       <div style="margin-bottom:40px ;"></div>
         <div style="margin: 0;" class="row justify-content-center">
@@ -64,7 +78,9 @@
           <div class="sub-projects container col-lg-5">
             <h2 class="project-title">Sync With Class</h2>
                   <p class="project-description">Anyone could <span class="highlighted-project-description">create a Room and others can join</span>, List of joined users who created the Group/Room.</p>
-                  <p class="project-description">User can Create, Update, Delete the Time-table Events for all Users Send Notification to all other members, Available on Play Store.</p>
+                  <p class="project-description">User can <span class="highlighted-project-description">
+                    Create, Update, Delete the Time-table Events for all Users Send Notification to all other members,
+                  </span> Available on Play Store.</p>
 
             <div class="divider"></div>
             <!-- Tech Used -->
@@ -83,7 +99,7 @@
           <div class="sub-projects container col-lg-5">
             <h2 class="project-title">Chatting App</h2>
                   <p class="project-description">User can send-receive messages
-                  <span class="highlighted-project-description">, one-to-one chats, set-update profiles authenticate</span>, via Mobile no. and OTP.</p>
+                  <span class="highlighted-project-description">, one to one chats, set-update profiles authenticate </span>via Mobile no. and OTP.</p>
                 
                   <p class="project-description">Users can see wether other User is 
                     <span class="highlighted-project-description">Online/Offline.</span> 
@@ -91,7 +107,7 @@
 
             <div class="divider"></div>
               <!-- Tech Used -->
-              <h5><span class="highlighted-project-description"></span> <span class="tech-used">Java</span><span class="tech-used">FireBase</span> </h5>  
+              <h5><span class="highlighted-project-description  "></span><span class="tech-used">Java</span><span class="tech-used">FireBase</span> </h5>  
 
               <div style="margin-bottom: 60px;"></div>    
               <button class="container-fluid btn btn-dark bg-dark justify-content-end"  type="button"

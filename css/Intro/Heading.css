@@ -1,19 +1,23 @@
-
-
 #intro-frame{
-    padding-top: 20%;
-    padding-left: 20%;
-    padding-bottom: 20%;
     width: 100%;
     text-align: center;
-    background-image: linear-gradient(rgb(61, 61, 61), rgb(0, 0, 0));
+    color: black;
     height: 60%;
+    background-color: rgb(129, 226, 250);
+}
+
+.description_akhilesh{
+    font-size: 1.6rem;
 }
 
 
 
-@media only screen and (max-width: 600px) {
+#header_image2{
+    display: none;
+}
 
+
+@media only screen and (max-width: 600px) {
 
     .container-fluid{
         margin-left: 0;
@@ -22,13 +26,21 @@
     
 
     #intro-frame{
-        padding-top: 40%;
         padding-left: 0%;
         padding-right: 0%;
         margin: 0 0 0;
         width: 100%;
         text-align: center;
-        background-image: linear-gradient(rgb(61, 61, 61), rgb(0, 0, 0));
+        height: 100%;
+    }
+
+    #header_image{
+        display: none;
+    }
+
+    #header_image2{
+        display:inline ;
+        width: 100%;
         height: 100%;
     }
 

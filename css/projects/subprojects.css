@@ -1,6 +1,6 @@
 #projects-frame{
     text-align: center;
-    background-color: rgb(68, 200, 223);
+    background-color: rgb(129, 226, 250);;
     padding-top: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -39,10 +39,11 @@
 }
 
 .tech-used{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(170, 245, 255);
     border-radius: 0.2rem;
     padding: 0.2rem 0.5rem;
-    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
     font-weight: 500;
 }
