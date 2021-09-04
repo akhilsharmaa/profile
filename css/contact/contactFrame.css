@@ -1,0 +1,29 @@
+#contact-frame{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+}
+
+#contact-title{
+    color: rgb(251, 251, 251);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+.contact-me-describe{
+    word-break: break-word;
+    width: 100%;
+    height:150px;
+    padding: 10px;
+    text-align: start;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #contact-frame{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}

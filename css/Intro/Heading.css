@@ -2,6 +2,7 @@
     width: 100%;
     text-align: center;
     color: black;
+    padding-top: 10%;
     height: 60%;
     background-color: rgb(129, 226, 250);
 }
@@ -26,6 +27,8 @@
     
 
     #intro-frame{
+
+        padding-top: 10%;
         padding-left: 0%;
         padding-right: 0%;
         margin: 0 0 0;
