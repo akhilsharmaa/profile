@@ -1,0 +1,61 @@
+#skill-frame{
+    /* background-image: linear-gradient(rgb(7, 7, 7) , rgb(68, 200, 223)); */
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+#skill-title{
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: rgb(68, 68, 68);
+}
+
+.sub-skill-heading{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.sub-skill{
+    margin-top: 1%;
+    box-shadow: 10ch;
+    padding-top: 0.5rem;    
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    border-width: 1px; 
+    margin-bottom: 10px;
+    padding-bottom: 0.5rem;
+}
+
+.my-skill{
+    background-color: rgb(212, 254, 255);
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.2rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+        
+    .sub-skill-heading{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+
+    .my-skill{
+        padding: 0.1rem 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    
+}

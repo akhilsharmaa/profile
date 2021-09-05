@@ -23,13 +23,14 @@
     <link rel="stylesheet" href="css/ParentStyle.css" class="stylesheet">
     <link rel="stylesheet" href="css/footer/footer.css" class="stylesheet">
     <link rel="stylesheet" href="css/contact/contactFrame.css" class="stylesheet">
+    <link rel="stylesheet" href="css/skills/skill-section.css" class="stylesheet">
 
     <title>Akhilesh Profile!</title>
   </head>
   <body>
 
     <!-- INTRO SECTION -->
-    <section id="intro-frame" class="justify-content-center" > 
+    <section id="intro-frame" class="justify-content-center web-section" > 
 
         <div class="px-4 pt-5 text-center border-bottom">
           <h1 class="display-4 fw-bold">Hi, I'm Akhilesh.</h1>
@@ -51,9 +52,8 @@
     
 
 
-
     <!-- EDUCATION SECTION -->
-    <section id="education-frame"> 
+    <section id="education-frame" class="web-section"> 
       <p id="education-title" class="h2 display-4">EDUCATION</p>
         <div style="margin: 0;" class="row container-fluid justify-content-center">
 
@@ -70,7 +70,7 @@
 
 
     <!-- PROJECTS SECTION -->
-    <section id="projects-frame" > 
+    <section id="projects-frame" class="web-section" > 
       <p id="project-title" class="h2 display-4">PROJECTS</p>
 
       <div style="margin-bottom:40px ;"></div>
@@ -78,7 +78,7 @@
 
           <!-- Sync with class Sub-section -->
           <div class="sub-projects container col-lg-5">
-            <h2 class="project-title">Sync With Class</h2>
+            <h2 class="project-title">Sync Class</h2>
                   <p class="project-description">Anyone could <span class="highlighted-project-description">
                     create a Room and others can join</span>, List of joined users who created the Group/Room.</p>
                   <p class="project-description">User can <span class="highlighted-project-description">
@@ -98,7 +98,7 @@
 
           </div>
 
-          <!-- Sync with class Sub-section -->
+          <!-- Chatting App Sub-section -->
           <div class="sub-projects container col-lg-5">
             <h2 class="project-title">Chatting App</h2>
                   <p class="project-description">User can send-receive messages
@@ -123,27 +123,103 @@
         </div>
     </section>
 
+
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skill-frame" class=""> 
+      <p id="skill-title" class="h2 display-4">MY SKILLS</p>
+        <div  class="row container-fluid justify-content-center">
+          
+          <!-- Programming Language Sub-section -->
+          <div class="sub-skill col-lg-4">
+            <p class="sub-skill-heading">Programming Language</p>
+            <h5>
+              <span class="my-skill">Java</span>
+              <span class="my-skill">C\C++</span> 
+            </h5>  
+            <div style="margin-top: 6px;"></div>
+            <h5>
+              <span class="my-skill">Dart</span>
+              <span class="my-skill">OPP’s concept</span> 
+            </h5>  
+          </div>
+
+          <!-- Android App development Sub-section -->
+          <div class="sub-skill col-lg-4">
+            <p class="sub-skill-heading">Android App development</p>
+            <h5>
+              <span class="my-skill">Java</span>
+              <span class="my-skill">Android Studio</span> 
+            </h5>  
+            <div style="margin-top: 6px;"></div>
+          </div>
+
+          <!-- Web-development : Sub-section -->
+          <div class="sub-skill col-lg-4">
+            <p class="sub-skill-heading">Web-development</p>
+            <h5>
+              <span class="my-skill">HTML</span>
+              <span class="my-skill">CSS</span> 
+            </h5>  
+            <div style="margin-top: 6px;"></div>
+            <h5>
+              <span class="my-skill">BootStrap</span>
+              <span class="my-skill">JavaScript</span> 
+            </h5>  
+          </div>
+
+          <!-- Frameworks/Database : Sub-section -->
+          <div class="sub-skill col-lg-4">
+            <p class="sub-skill-heading">Frameworks/Database</p>
+            <h5>
+              <span class="my-skill">Flutter</span>
+              <span class="my-skill">SQL</span> 
+            </h5> 
+            <div style="margin-top: 6px;"></div>
+            <h5>
+              <span class="my-skill">Firebase</span>
+            </h5>  
+          </div>
+
+
+          <!-- Tools/Software : Sub-section -->
+          <div class="sub-skill col-lg-4">
+            <p class="sub-skill-heading">Tools/Software</p>
+            <h5>
+              <span class="my-skill">Git</span>
+              <span class="my-skill">GitHub</span> 
+            </h5>  
+            <div style="margin-top: 6px;"></div>
+          </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
     <!-- Contact Frame -->
-    <section id="contact-frame">
+    <section id="contact-frame" class="web-section">
 
       <p id="contact-title" class="h2 display-4">Contact me</p>
 
       <div class="container col-lg-6">
           <form>
-            <div style="height:20px;" ></div>
-            <input type="text" class="form-control" placeholder="Enter your message title" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div style="height: 10px;" ></div>
-            <textarea id="textarea_comp-kl3ugd21" class="form-control contact-me-describe" placeholder="Enter your message in detail here..."></textarea>
-            <div style="height: 20px;" ></div>
-            <button  type="button" onclick="location.href='mailto:akhilsharma3332@gmail.com'"
-            class="btn btn-outline btn-dark px-4">SEND</button>
+            <!-- <button  type="button" onclick="location.href='mailto:akhilsharma3332@gmail.com'"
+            class="btn btn-outline btn-dark px-4">SEND EMAIL</button> -->
           </form>
       </div>
     </section>
 
+
+
     <!-- Footer Section -->
-    <section id="footer-frame">
-      <p class="contact-h1 text-light">Created by Akhilesh Kumar Sharma</p>
+    <section id="footer-frame" class="web-section">
+      <p class="contact-h1 text-light">Created by</p>
+      <p class="contact-h1 text-light">Akhilesh Kumar Sharma</p>
     </section>
 
 
