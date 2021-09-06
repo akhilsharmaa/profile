@@ -8,8 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    
     <!-- Font awesom -->
     <script src="https://kit.fontawesome.com/1dac6b52de.js" crossorigin="anonymous"></script>
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +26,7 @@
     <link rel="stylesheet" href="css/footer/footer.css" class="stylesheet">
     <link rel="stylesheet" href="css/contact/contactFrame.css" class="stylesheet">
     <link rel="stylesheet" href="css/skills/skill-section.css" class="stylesheet">
+    <link rel="stylesheet" href="css/Resume/resume.css" class="stylesheet">
 
     <title>Akhilesh Profile!</title>
   </head>
@@ -127,13 +130,14 @@
 
 
     <!-- SKILLS SECTION -->
-    <section id="skill-frame" class=""> 
+    <section id="skill-frame" class="web-section"> 
       <p id="skill-title" class="h2 display-4">MY SKILLS</p>
         <div  class="row container-fluid justify-content-center">
           
           <!-- Programming Language Sub-section -->
           <div class="sub-skill col-lg-4">
             <p class="sub-skill-heading">Programming Language</p>
+            <div class="sub-skill-divider" ></div>
             <h5>
               <span class="my-skill">Java</span>
               <span class="my-skill">C\C++</span> 
@@ -148,6 +152,7 @@
           <!-- Android App development Sub-section -->
           <div class="sub-skill col-lg-4">
             <p class="sub-skill-heading">Android App development</p>
+            <div class="sub-skill-divider" ></div>
             <h5>
               <span class="my-skill">Java</span>
               <span class="my-skill">Android Studio</span> 
@@ -158,6 +163,7 @@
           <!-- Web-development : Sub-section -->
           <div class="sub-skill col-lg-4">
             <p class="sub-skill-heading">Web-development</p>
+            <div class="sub-skill-divider" ></div>
             <h5>
               <span class="my-skill">HTML</span>
               <span class="my-skill">CSS</span> 
@@ -172,6 +178,7 @@
           <!-- Frameworks/Database : Sub-section -->
           <div class="sub-skill col-lg-4">
             <p class="sub-skill-heading">Frameworks/Database</p>
+            <div class="sub-skill-divider" ></div>
             <h5>
               <span class="my-skill">Flutter</span>
               <span class="my-skill">SQL</span> 
@@ -186,6 +193,7 @@
           <!-- Tools/Software : Sub-section -->
           <div class="sub-skill col-lg-4">
             <p class="sub-skill-heading">Tools/Software</p>
+            <div class="sub-skill-divider" ></div>
             <h5>
               <span class="my-skill">Git</span>
               <span class="my-skill">GitHub</span> 
@@ -199,21 +207,43 @@
 
 
 
-
-
-    <!-- Contact Frame -->
-    <section id="contact-frame" class="web-section">
-
-      <p id="contact-title" class="h2 display-4">Contact me</p>
-
-      <div class="container col-lg-6">
-          <form>
-            <!-- <button  type="button" onclick="location.href='mailto:akhilsharma3332@gmail.com'"
-            class="btn btn-outline btn-dark px-4">SEND EMAIL</button> -->
-          </form>
+    <!-- Resume-section -->
+    <section id="resume-section">
+      <div class="my-resume">
+        <button  type="button" onclick="location.href='https://drive.google.com/file/d/1v5Mqx6imZbv5xalzQ1p9B8j6zK1yw9qI/view?usp=sharing'"
+        class="resume-button">Preview Resume</button>
+        <p class="resume-button-description">Preiew my Resume in PDF form. </p>
       </div>
     </section>
 
+  
+
+
+    <!-- Contact Frame -->
+    <section id="contact-frame">
+
+      <p id="contact-title" class="h2 display-4">Connect with me</p>
+      <p class="contact-me-describe">Connect with me on These platforms :) </p>
+
+      <div class="container">
+
+        <div class="social-icon-container justify-content-center row container">
+          <div class="col">
+            <img onclick="location.href='https://www.linkedin.com/in/theakhilesh/'"
+            src="images/linkedin-icon.png" alt="" class="social-icons">
+          </div>
+          <div class="col">
+            <img onclick="location.href='https://github.com/akhilsharmaa'"
+            src="images/github_white.png" alt="" class="social-icons">
+          </div>
+          <div class="col">
+            <img onclick="location.href='https://www.instagram.com/akhil.kr.sharma/'"
+            src="images/instra_icon.png" alt="" class="social-icons">
+          </div>
+        </div>
+      </div>
+
+    </section>
 
 
     <!-- Footer Section -->

@@ -15,6 +15,7 @@
 
 .sub-skill-heading{
     font-size: 1.3rem;
+    margin-bottom: 0;   
     font-weight: 800;
 }
 
@@ -41,6 +42,14 @@
     font-weight: 500;
 }
 
+.sub-skill-divider{
+    height: 2px; 
+    background-color: rgb(243, 243, 243);
+    display: block;
+    margin: 5px 18% 10px 18%;
+    border-radius: 10rem;
+    border-width: 9px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -57,5 +66,8 @@
         font-weight: 500;
     }
 
+    .sub-skill-divider{
+         margin: 5px 0% 10px 0%;
+    }
     
 }

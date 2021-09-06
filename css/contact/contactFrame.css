@@ -1,8 +1,9 @@
 #contact-frame{
     padding-top: 5%;
     padding-bottom: 5%;
-    text-align: center;
-    background-color: rgb(19, 19, 19);
+    text-align: center; 
+    align-items: center;
+    background-color: rgb(42, 42, 42);
 }
 
 #contact-title{
@@ -13,17 +14,36 @@
 
 
 .contact-me-describe{
-    word-break: break-word;
-    width: 100%;
-    height:150px;
-    padding: 10px;
-    text-align: start;
+    color: rgb(180, 180, 180);
+    text-align: center;
 }
 
+.social-icons{
+    height: 40px;
+    width: 40px;
+}
+
+.social-icon-container{
+    padding-left: 5%;
+    margin-top: 2rem;
+}
 
 @media only screen and (max-width: 600px) {
     #contact-frame{
         padding-top: 15%;
         padding-bottom: 15%;
+    }
+
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .social-icon-container{
+        padding-left: 10%;
+        margin-top: 10%;
     }
 }
