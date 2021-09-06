@@ -3,6 +3,7 @@
     padding-bottom: 5%;
     text-align: center; 
     align-items: center;
+    height: 270px;
     background-color: rgb(42, 42, 42);
 }
 
@@ -21,7 +22,13 @@
 .social-icons{
     height: 40px;
     width: 40px;
+}   
+.social-icons:hover{
+    height: 60px;
+    width: 60px;
 }
+
+
 
 .social-icon-container{
     padding-left: 5%;
