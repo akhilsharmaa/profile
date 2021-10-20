@@ -1,11 +1,8 @@
 .ploblem-solving-section{
-    padding-top: 120px;
-    padding-bottom: 100px;
+    /* background-image: url("https://s3.amazonaws.com/wordpress-production/wp-content/uploads/2015/12/collaborative-problem-solving.jpg"); */
+    padding-top: 100px;
+    padding-bottom: 30px;
     background-color: rgb(255, 218, 96);
-}
-
-.problem-solving-heading{
-    font-size: 5rem;
 }
 
 .problem-solving-heading{
