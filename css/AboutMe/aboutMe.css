@@ -1,0 +1,9 @@
+#AboutMe{
+    align-items: center;
+}
+
+
+#my_profileImage{
+    height: 10rem;
+    border-radius: 50%;
+}
