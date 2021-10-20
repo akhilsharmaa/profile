@@ -11,9 +11,9 @@
 @media only screen and (max-width: 600px) {
 
     .star-count-image{
-        margin-left: 5px;
+        margin-left: 10px;
         height: 100px;
-        width: auto;
+        width: 90px;
         position: relative;  
         display: inline-block;
     }    

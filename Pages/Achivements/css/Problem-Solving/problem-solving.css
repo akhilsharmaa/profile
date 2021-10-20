@@ -40,11 +40,10 @@
 
 @media only screen and (max-width: 600px) {
     
-
-
     .ploblem-solving-section{
         padding-top: 80px;
-        text-align: right;
+        padding-left: 20px;
+        text-align: center;
         padding-bottom: 30px;
         background-color: rgb(255, 218, 96);
     }
