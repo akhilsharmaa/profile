@@ -1,0 +1,60 @@
+#contact-frame{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center; 
+    align-items: center;
+    height: 270px;
+    text-align: left;
+    /* background-color: rgb(42, 42, 42); */
+    width: 50%;
+}
+
+#contact-title{
+    color: rgb(251, 251, 251);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+.contact-me-describe{
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.social-icons{
+    height: 40px;
+    width: 40px;
+}   
+.social-icons:hover{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.social-icon-container{
+    padding-left: 5%;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact-frame{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .social-icon-container{
+        padding-left: 10%;
+        margin-top: 10%;
+    }
+}
