@@ -1,0 +1,55 @@
+.ploblem-solving-section{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background-color: rgb(255, 218, 96);
+}
+
+.problem-solving-heading{
+    font-size: 5rem;
+}
+
+.problem-solving-heading{
+    font-weight:500;
+    color: rgb(14, 14, 14);
+    line-height: 23px;
+    font-size: 2.6rem;
+}
+
+.problem-solving-platfrom{
+    line-height: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 1.6rem;
+
+}
+
+.problem-solving-description{
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.685);
+    font-size: 1.3rem;
+}
+
+.problem-solving-list-item{
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.problem-solving-platfrom-id{
+    line-height: 0px;
+    font-weight: 500;
+    color: rgb(0, 60, 255);
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    
+
+
+    .ploblem-solving-section{
+        padding-top: 80px;
+        text-align: right;
+        padding-bottom: 30px;
+        background-color: rgb(255, 218, 96);
+    }
+    
+}
