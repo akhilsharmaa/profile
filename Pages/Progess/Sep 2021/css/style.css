@@ -26,14 +26,17 @@ body{
     color: white;
     background-color: rgb(24, 24, 24);
     padding: 5px 20px 5px 20px;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
 
 
+    .code-text-table{
+        margin-right: 40px;
+    }
+
     .table-section{
-        margin: 0px 0px;
         border: 0px solid rgb(207, 207, 207) ;
         margin-top: 100px;
         background-color: transparent;
