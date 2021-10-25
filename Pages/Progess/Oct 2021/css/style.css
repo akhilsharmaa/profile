@@ -1,10 +1,11 @@
 .month-description-section{
     text-align: center;
     padding-top: 200px;
+    padding-bottom: 100px;
 }   
 
 body{
-    background-color: #B5F0FF;
+    background-color: #f9feff;
 }
 
 .table-section{
@@ -12,8 +13,9 @@ body{
     border: 1px solid rgb(207, 207, 207) ;
     border-radius: 23px;
     padding: 10px;
-    margin: 100px ;
+    margin: auto;
 }
+
 
 .question-in-table{
     text-decoration: none;
@@ -46,12 +48,13 @@ body{
     }
 
     .table-section{
-        border-radius: 15px;
+        border-radius: 2px;
         border: 0px solid rgb(207, 207, 207) ;
-        margin-top: 100px;
-        padding-right: 40%;
+        margin-top: 50px;
         margin-left: 0px;
-        margin: 5px ;
+        padding-left: 0px;
+        margin-right: 0px;
     }
+
 
 }
