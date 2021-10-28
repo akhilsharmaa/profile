@@ -9,6 +9,10 @@
     width: 50%;
 }
 
+.AboutThisListDescription{
+    font-size: 4rem;
+}
+
 #contact-title{
     color: rgb(251, 251, 251);
     font-size: 1.8rem;
