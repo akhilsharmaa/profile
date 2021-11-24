@@ -1,0 +1,42 @@
+body{
+    font-family: 'M PLUS Code Latin', sans-serif;
+    background-image: url("bokeh-background.svg");
+    background-size: auto 300%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.social-media-section{
+    /* background-color: aliceblue; */
+}
+
+.link-button{
+    border-radius: 40px;
+    max-width: 100%;    
+    background-color: transparent;
+    font-size: 1.25rem;
+
+    border-color: #6c757d;
+
+    border: 1px solid rgb(134, 134, 134);
+}
+
+.link-div{
+    border-radius: 40px;
+    max-width: 100%;
+    background-color: white;
+    padding: 1rem 1.2rem 1rem 2rem;
+    font-size: 1.25rem;
+    border-color: #6c757d;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        margin: 0;
+    }
+    
+}
